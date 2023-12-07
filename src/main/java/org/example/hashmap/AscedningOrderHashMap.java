@@ -11,6 +11,7 @@ public class AscedningOrderHashMap {
             numfreq.put(num, numfreq.getOrDefault(num, 0) + 1);
 
         }
+        System.out.println("I am  just trying to New Branch");
         int[] sortedArray = new int[nums.length];
         int index = 0;
         for (int key : numfreq.keySet()) {
